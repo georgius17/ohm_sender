@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ohm_sender/static/css/main.e032d9bf.chunk.css",
+    "main.js": "/ohm_sender/static/js/main.5d7b5ffc.chunk.js",
+    "main.js.map": "/ohm_sender/static/js/main.5d7b5ffc.chunk.js.map",
+    "runtime-main.js": "/ohm_sender/static/js/runtime-main.4b61e102.js",
+    "runtime-main.js.map": "/ohm_sender/static/js/runtime-main.4b61e102.js.map",
+    "static/js/2.e546f19b.chunk.js": "/ohm_sender/static/js/2.e546f19b.chunk.js",
+    "static/js/2.e546f19b.chunk.js.map": "/ohm_sender/static/js/2.e546f19b.chunk.js.map",
+    "index.html": "/ohm_sender/index.html",
+    "precache-manifest.7925f3ff314ee565b28fff7c38f38178.js": "/ohm_sender/precache-manifest.7925f3ff314ee565b28fff7c38f38178.js",
+    "service-worker.js": "/ohm_sender/service-worker.js",
+    "static/css/main.e032d9bf.chunk.css.map": "/ohm_sender/static/css/main.e032d9bf.chunk.css.map",
+    "static/js/2.e546f19b.chunk.js.LICENSE.txt": "/ohm_sender/static/js/2.e546f19b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b61e102.js",
+    "static/js/2.e546f19b.chunk.js",
+    "static/css/main.e032d9bf.chunk.css",
+    "static/js/main.5d7b5ffc.chunk.js"
+  ]
+}
