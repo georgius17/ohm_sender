@@ -1,5 +1,6 @@
 
-export const SET_PLACE = 'SET_PLACE';
-export const SET_PLACE_START = 'SET_PLACE_START';
-export const SET_PLACE_FAIL = 'SET_PLACE_FAIL';
-export const SET_UNITS = 'SET_UNITS';
+export const AUTH_START = 'AUTH_START';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const AUTH_FAIL = 'AUTH_FAIL';
+
+export const SELECTED_CONTACT = 'SELECTED_CONTACT';

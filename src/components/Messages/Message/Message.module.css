@@ -1,0 +1,28 @@
+.Message {
+    width: 60%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px 10px;
+    overflow-wrap: break-word;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.Receiver {
+    float: left;
+    clear: right;
+    color: blue;
+}
+
+.Sender {
+    float: right;
+    clear: left;
+    color: green;
+}
+
+@media only screen and (max-width: 600px) {
+    .Message {
+        font-size: 8px; 
+    }
+  }

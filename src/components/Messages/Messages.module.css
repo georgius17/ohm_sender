@@ -1,0 +1,53 @@
+
+.MessagesContainer {
+    width: 40%;
+    height: 600px;
+    border:2px solid green;
+    border-radius: 15px;
+    top: 30%;
+    left: 42%;
+    position: absolute;
+}
+
+.MessagesViewed {
+    overflow: auto;
+    height: 85%;
+}
+
+.NewMessage {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.MessageInput {
+    margin:0 auto;
+    width: 90%;
+    text-align: center;
+    resize: none;
+}
+
+.MessageInput:hover{
+    border: 2px solid rgb(100, 86, 86);
+}
+
+.SelectedUser {
+    text-align: center;
+    color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    .MessagesContainer {
+        position: fixed;
+        margin: 0 10%;
+        width: 80%;
+        height: 48%;
+        clear: both;
+        display: block;
+        top: 51%;
+        left: 0;
+        box-sizing: border-box; 
+    }
+  }

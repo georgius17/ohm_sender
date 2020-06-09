@@ -1,0 +1,120 @@
+.Contacts {
+    width: 25%;
+    height: 600px;
+    border:2px solid green;
+    border-radius: 15px;
+    margin-left: 30px;
+    position: absolute;
+    top: 30%;
+    left: 14%;
+}
+
+.ContactsViewed {
+    overflow: auto;
+    height: 80%;
+}
+
+.ControlPanel {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    z-index: -1;
+}
+
+.SearchInput {
+    width: 87%;
+    text-align: center;
+}
+
+.SearchInput:hover{
+    border: 2px solid rgb(100, 86, 86);
+}
+
+.Search {
+    margin: 10px auto;
+    text-align: center;
+}
+
+.SignOutButton {
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.SignOutButton:hover {
+    background-color: hsla(281, 100%, 47%, 0.84);
+    border: none;
+    color: white;
+}
+
+.SignedUser{
+    color:hsla(246, 100%, 50%, 0.89); 
+    cursor: context-menu;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .Contacts{
+        top: 30%;
+        left: 12%;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .Contacts {
+        position: absolute;
+        width: 80%;
+        height: 20%;
+        margin: 0 10%;
+        clear: both;
+        display: block;
+        left: 0;
+        box-sizing: border-box;
+    }
+
+    .Search {
+        margin:2px auto;
+    }
+
+    .ContactsViewed {
+        height: 57%;
+    }
+
+    .ControlPanel {
+        box-sizing: border-box;
+        font-size: 10px;
+        position: relative;
+        margin:0 auto;
+        
+    }
+
+    .SignedUser {
+        display: inline;
+        margin:0 5px;
+    }
+
+    .SignOutButton {
+        font-size: 9px;
+        padding: 1px 4px;
+        margin:0 5px;
+    }
+
+    .SearchInput {
+        width: 50%;
+        height: 2em;
+        text-align: center;
+        font-size: 10px;
+        box-sizing: border-box;
+        resize: none;
+        padding: 0;
+        border: 1px solid black;
+    }
+
+  }

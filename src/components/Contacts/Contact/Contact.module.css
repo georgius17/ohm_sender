@@ -1,0 +1,94 @@
+.Contact {
+    border:1px solid grey;
+    border-radius: 10px;
+    width: 90%;
+    height: 8%;
+    margin: 1% auto;
+    display: block;
+    z-index: 5;
+    background-color: white;
+}
+
+.Contact:hover {
+    background-color: hsla(39, 100%, 50%, 0.74);
+}
+
+.Selected {
+    color: hsla(303, 100%, 38%, 1);
+}
+
+.Unselected {
+    color: hsla(303, 100%, 5%, 0.9);
+}
+
+h3 {
+    display: inline;
+    float: left;
+    margin: 2% 10% 0 10%;
+    font-size: 1.1vw;
+    cursor: pointer;
+    width: 60%;
+}
+
+.DeleteBut {
+    display: inline;
+    margin: 1% 2% 0 0;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-radius: 20px;
+    font-size: 15px;
+    float: right;
+}
+
+.DeleteBut:hover {
+    background-color: hsla(281, 100%, 47%, 0.84);
+    border: none;
+    color: white;
+}
+
+.Icon {
+    display: inline;
+    float: right;
+    width: 5px;
+    position: relative;
+    margin:0 auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    h3 {
+        font-size: 1.4vw;
+        margin: 10px 5px;
+    }
+
+    .DeleteBut {
+        padding: 2px 5px 2px 5px;
+        margin-top: 6px;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .Contact {
+        border:1px solid grey;
+        width: 90%;
+        height: 10%;
+        margin: 1% auto;
+        display: block;
+    }
+    h3 {
+        font-size: 7px;
+        margin: 0 auto;
+       
+    }
+
+    .DeleteBut {
+        padding: 1px 2px 1px 2px;
+        margin: 0 auto;
+        font-size: 5px;
+        border: none;
+    }
+  }
+

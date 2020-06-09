@@ -1,0 +1,21 @@
+.FormData {
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+}
+
+.Input {
+    display: block;
+}
+
+.Reset {
+    background-color: transparent;
+    border: none;
+    color: #944317;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 0 auto;
+    font-weight: bold;
+}
